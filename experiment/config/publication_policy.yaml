@@ -1,0 +1,13 @@
+version: 1
+default:
+  publish_question_text: false
+  publish_reference_answer: false
+  publish_model_answer: false
+  publish_item_id: true
+  publish_aggregates: true
+
+benchmarks: {}
+
+# A benchmark may override the default only after its dataset license and access
+# restrictions have been checked and recorded with a source URL.
+

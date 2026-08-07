@@ -1,0 +1,153 @@
+{
+  "leaderboard_grid": {
+    "active_runset_id": "xljkx6yr0",
+    "active_runset_name": "merged",
+    "api_order": "-created_at",
+    "block_index": 10,
+    "filter_semantics": {
+      "required_tag": "merged",
+      "special_run_ids": [
+        "s8l0q5rw",
+        "y7qgizy5"
+      ],
+      "tag_any": [
+        "leaderboard",
+        "archived"
+      ]
+    },
+    "main_panel_index": 3,
+    "matching_run_count": 159,
+    "materialized_run_count": 100,
+    "materialized_run_ids_sha256": "25146b4714094ed376a99b684a99e2d4bdd2f0abe0b3cb529ec270c026c6b1b1",
+    "panel_max_length": 100,
+    "panel_sort": [
+      {
+        "columnId": "col-3",
+        "dir": "desc"
+      }
+    ],
+    "public_api_filter": {
+      "$or": [
+        {
+          "$and": [
+            {
+              "tags": {
+                "$in": [
+                  "leaderboard",
+                  "archived"
+                ]
+              }
+            },
+            {
+              "tags": "merged"
+            }
+          ]
+        },
+        {
+          "name": {
+            "$in": [
+              "s8l0q5rw",
+              "y7qgizy5"
+            ]
+          }
+        }
+      ]
+    },
+    "report_filter": {
+      "filterFormat": "filterV2",
+      "filters": [
+        {
+          "disabled": false,
+          "filters": [
+            {
+              "disabled": false,
+              "key": {
+                "name": "*",
+                "section": "tags"
+              },
+              "op": "IN",
+              "value": [
+                "leaderboard",
+                "archived"
+              ]
+            },
+            {
+              "disabled": false,
+              "key": {
+                "name": "merged",
+                "section": "tags"
+              },
+              "op": "!=",
+              "value": false
+            }
+          ]
+        },
+        {
+          "connector": "OR",
+          "disabled": false,
+          "key": {
+            "name": "name",
+            "section": "run"
+          },
+          "op": "IN",
+          "value": [
+            "s8l0q5rw",
+            "y7qgizy5"
+          ]
+        }
+      ]
+    },
+    "score_column": "TOTAL_SCORE",
+    "sort": {
+      "keys": [
+        {
+          "ascending": false,
+          "key": {
+            "name": "createdAt",
+            "section": "run"
+          }
+        }
+      ]
+    }
+  },
+  "merged_source": {
+    "column_count": 37,
+    "file": "data/raw/report_merged_leaderboard/media/table/leaderboard_table_2_380c09b08bbfa680433a.table.json",
+    "file_sha256": "380c09b08bbfa680433a5d2c038d5f63092b2642c38ebbc40707cec5e1ae9e81",
+    "pointer": {
+      "_latest_artifact_path": "wandb-client-artifact://tuel5ww79kl27dj33fkj70wk1bqgxjhz3k34sub5c736i57pk8xmufnopni7vtx6iz37fjcfomtbyh06x768cvncyeh941lwtepq7oz4eah6x5b5ywwi4xskbonkq5ft:latest/leaderboard_table.table.json",
+      "_type": "table-file",
+      "artifact_path": "wandb-client-artifact://tg2ajr26mgugd7ysnk1df87awrbaax4og9thrhndhu0s48i3sw6zg2xtfpf00zzcp3zdwncuerokvlohmnlu19onya0zubxc4u5wj927tf0onxsleycsxyoxnmb6u6j5/leaderboard_table.table.json",
+      "log_mode": "IMMUTABLE",
+      "ncols": 37,
+      "nrows": 157,
+      "path": "media/table/leaderboard_table_2_380c09b08bbfa680433a.table.json",
+      "sha256": "380c09b08bbfa680433a5d2c038d5f63092b2642c38ebbc40707cec5e1ae9e81",
+      "size": 99118
+    },
+    "role": "report provenance only; not the strict-tag ranking source",
+    "row_count": 157,
+    "run_id": "s8l0q5rw",
+    "run_name": "merged_runs"
+  },
+  "ranking_cohort": {
+    "api_filter": {
+      "tags": "leaderboard"
+    },
+    "matching_run_count": 102,
+    "rankable_run_count": 102,
+    "ranking_source": "individual leaderboard_table pointers",
+    "required_tag": "leaderboard",
+    "unrankable_runs": []
+  },
+  "report": {
+    "created_at": "2025-07-28T05:01:01Z",
+    "display_name": "Nejumi LLMリーダーボード4",
+    "id": "VmlldzoxMzc1OTk1MA==",
+    "name": "but0s98q1rq",
+    "raw_spec_path": "data/raw/report_spec.json",
+    "spec_sha256": "917f6a815421971421a5752f7eff0c4bac3ac590fb45c309a01cf2b389b470c0",
+    "updated_at": "2026-07-28T11:26:26Z",
+    "url": "https://wandb.ai/llm-leaderboard/nejumi-leaderboard4/reports/Nejumi-LLM%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%894--VmlldzoxMzc1OTk1MA"
+  }
+}

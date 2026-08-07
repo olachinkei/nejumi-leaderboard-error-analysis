@@ -1,0 +1,245 @@
+{
+  "all_primary_categories_finite": true,
+  "all_runs_finished": true,
+  "all_selected_have_required_tag": true,
+  "captured_at": "2026-07-31T08:00:48.189546+09:00",
+  "cohort_run_count": 102,
+  "duplicate_model_names": {
+    "gpt-5.4-2026-03-05": [
+      "7q3ped59",
+      "a66m5tyt"
+    ]
+  },
+  "rankable_run_count": 102,
+  "report_spec_sha256": "917f6a815421971421a5752f7eff0c4bac3ac590fb45c309a01cf2b389b470c0",
+  "required_tag": "leaderboard",
+  "rows": [
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "0ba3e18a8a44ba462d9e832db91dbac8da13b53da12e78cf7a47d9bbdb6d5ba1",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 1,
+      "required_tag": "leaderboard",
+      "run_id": "cxsz2xqm",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "312a0b5373471c1dcc2f873a13cc6755d3709e43725b2d156a43a3968a8df185",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 2,
+      "required_tag": "leaderboard",
+      "run_id": "ga3zlihc",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "62d853911f507415816621ca9bde096d2eb972b5281ec92989056ce48d5c473f",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 3,
+      "required_tag": "leaderboard",
+      "run_id": "qf3qjwcd",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "03fcb5139bb739d1d56dbf7b2453dec4fa61f414ad257ab07318585ebbb27427",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 4,
+      "required_tag": "leaderboard",
+      "run_id": "igjipahr",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "ebc181ed0a1d43a985087a8603a5be1420e0c677cd24f44157949e875fd824cc",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 5,
+      "required_tag": "leaderboard",
+      "run_id": "lmapqzci",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "cc70e29985b524304fb8a428558704ea68c2b377a03918dc74f81d8934a55023",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 6,
+      "required_tag": "leaderboard",
+      "run_id": "4a1g5x8k",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "ba0bb57aed5b5f0c4487450b57644bdccd7e5dc5293e382adfd18bbebfa65b64",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 7,
+      "required_tag": "leaderboard",
+      "run_id": "vkywuuu8",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "dccaa352d72c58cb0e236e7e48058ded57f1393e90e977eedefa3e665fc138fa",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 8,
+      "required_tag": "leaderboard",
+      "run_id": "dgsrrds4",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "2c42ffe5e02281771c8f96c5d517d15d92847bf665e361819df5d3ca2a0bfdb2",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 9,
+      "required_tag": "leaderboard",
+      "run_id": "u7xcg3it",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "6f7516e77b6a7fee38bf8836d55dc838793b705b52405a92f22875c68f27e230",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 10,
+      "required_tag": "leaderboard",
+      "run_id": "t00va43j",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "b03c9c2e7e2304809194adf7b0a90d7d1dc1ab047890858b181de314e09eb557",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 11,
+      "required_tag": "leaderboard",
+      "run_id": "7q3ped59",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "6c73770264a9f609c5fd269532e35cefe4f9798114374cc11c3b8093fd94e914",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 12,
+      "required_tag": "leaderboard",
+      "run_id": "69qmeeas",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "a84f8b898807b0dff62a6a2c97e423a2e210068839a0aede402d427cdde9527b",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 13,
+      "required_tag": "leaderboard",
+      "run_id": "o3ab4zgc",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "a21fbe15b5ed6573209eb305f38771d14f65ec61447ac982db39e9edac033aad",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 14,
+      "required_tag": "leaderboard",
+      "run_id": "79ocdmel",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "2587017b63b224a3101350d41d77d5c2590b0f885523cd0d3835dd0f7718efb9",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 15,
+      "required_tag": "leaderboard",
+      "run_id": "a66m5tyt",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "72f59249c0ad0aa23dd82c2ace5cee6831886fe7e3836c528b0fa844f0dcfd9b",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 16,
+      "required_tag": "leaderboard",
+      "run_id": "pr61pbez",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "976d41958d9babd9a0070370ac136b98bbf79f8ede930dc83c6bd626362ae7ea",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 17,
+      "required_tag": "leaderboard",
+      "run_id": "loe3h6fu",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "a138714f1de0319d40545b73b09a7c583714b72ac3f61302398f241768e148b2",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 18,
+      "required_tag": "leaderboard",
+      "run_id": "k7406nd1",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "c657095b1aae0f206635abd2537168c3abfc9e6aba87846e43e8841747a5ba61",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 19,
+      "required_tag": "leaderboard",
+      "run_id": "4dzcsbgf",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    },
+    {
+      "individual_table_nrows": 1,
+      "individual_table_sha256": "6b6ef9cef5fec9e4df1180283e0c90cec800e4a8400932e041eaf5488733898a",
+      "missing_primary_categories": [],
+      "model_name_matches_individual_table": true,
+      "rank": 20,
+      "required_tag": "leaderboard",
+      "run_id": "avplmeni",
+      "score_matches_individual_table": true,
+      "selected_by_required_tag": true
+    }
+  ],
+  "snapshot_id": "2026-07-31",
+  "source_table_rows": 157,
+  "source_table_sha256": "380c09b08bbfa680433a5d2c038d5f63092b2642c38ebbc40707cec5e1ae9e81",
+  "top_n": 20,
+  "ui_visual_check": "pending",
+  "unique_run_ids": 20,
+  "unrankable_runs": []
+}

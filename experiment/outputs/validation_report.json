@@ -1,0 +1,148 @@
+{
+  "checks": {
+    "article_character_count": 8897,
+    "article_has_no_placeholder": true,
+    "artifact_manifest_complete": true,
+    "classification_schema": true,
+    "common_failure_contract": true,
+    "facts_match": true,
+    "item_cross_product": true,
+    "published_score_check_count": 1100,
+    "published_score_reproduction": true,
+    "report_exists": true,
+    "report_has_no_api_key_assignment": true,
+    "report_has_no_placeholder": true,
+    "top20_required_tag": true,
+    "top20_unique_runs": true
+  },
+  "classification_details": [
+    {
+      "assignments": 4,
+      "benchmark": "arc_agi",
+      "cause_values": [
+        "model_capability"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 4
+    },
+    {
+      "assignments": 66,
+      "benchmark": "bfcl",
+      "cause_values": [
+        "ambiguous_or_underspecified",
+        "data_or_version",
+        "format_or_protocol",
+        "mixed",
+        "model_capability",
+        "reference_or_evaluator"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 8
+    },
+    {
+      "assignments": 75,
+      "benchmark": "hle",
+      "cause_values": [
+        "ambiguous_or_underspecified",
+        "data_or_version",
+        "format_or_protocol",
+        "mixed",
+        "model_capability",
+        "reference_or_evaluator"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 8
+    },
+    {
+      "assignments": 594,
+      "benchmark": "jaster",
+      "cause_values": [
+        "ambiguous_or_underspecified",
+        "data_or_version",
+        "format_or_protocol",
+        "mixed",
+        "model_capability",
+        "reference_or_evaluator",
+        "uncertain"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 8
+    },
+    {
+      "assignments": 4,
+      "benchmark": "jbbq",
+      "cause_values": [
+        "reference_or_evaluator"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 2
+    },
+    {
+      "assignments": 3,
+      "benchmark": "jhumaneval",
+      "cause_values": [
+        "data_or_version"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 3
+    },
+    {
+      "assignments": 92,
+      "benchmark": "jtruthfulqa",
+      "cause_values": [
+        "ambiguous_or_underspecified",
+        "data_or_version",
+        "format_or_protocol",
+        "mixed",
+        "model_capability",
+        "reference_or_evaluator"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 7
+    },
+    {
+      "assignments": 10,
+      "benchmark": "m_ifeval",
+      "cause_values": [
+        "ambiguous_or_underspecified",
+        "data_or_version",
+        "format_or_protocol",
+        "mixed",
+        "reference_or_evaluator"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 5
+    },
+    {
+      "assignments": 2,
+      "benchmark": "mtbench",
+      "cause_values": [
+        "reference_or_evaluator"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 2
+    },
+    {
+      "assignments": 5,
+      "benchmark": "swebench",
+      "cause_values": [
+        "model_capability",
+        "uncertain"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 3
+    },
+    {
+      "assignments": 2,
+      "benchmark": "toxicity",
+      "cause_values": [
+        "mixed",
+        "reference_or_evaluator"
+      ],
+      "status": "passed",
+      "taxonomy_categories": 3
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

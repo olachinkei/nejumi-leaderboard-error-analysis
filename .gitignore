@@ -1,0 +1,18 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Downloaded W&B data may contain restricted benchmark content or model output.
+experiment/data/raw/
+experiment/data/cache/
+experiment/data/interim/
+experiment/data/processed/
+experiment/logs/
+experiment/outputs/llm/
+
+# Local source checkouts are pinned in snapshot.json and are reproducible.
+experiment/vendor/

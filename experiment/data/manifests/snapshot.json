@@ -1,0 +1,31 @@
+{
+  "captured_at": "2026-07-31T00:31:07.815421+09:00",
+  "environment": {
+    "credential_env_names_present": [
+      "WANDB_API_KEY"
+    ],
+    "implementation": "CPython",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.12.4",
+    "wandb_sdk": "0.24.2"
+  },
+  "snapshot_date": "2026-07-31",
+  "sources": {
+    "wandb_fails": {
+      "commit": "d008371e7452df0ced2d32bb408ec3cf6da15100",
+      "remote": "https://github.com/wandb/fails.git"
+    },
+    "wandb_llm_leaderboard": {
+      "commit": "f5ea4764148c39e9b69e7b5d74671d47f767324f",
+      "remote": "https://github.com/wandb/llm-leaderboard.git"
+    }
+  },
+  "timezone": "Asia/Tokyo",
+  "workspace": {
+    "analysis_config_sha256": "688a5d07c365eec7bc29b7b2189ed2c5874302840abe40033bbc9fd24db900cb",
+    "instruction_sha256": "7751d0dad61e47667ba06abae494a34d023f4c8d2824b6b2896dad5586424755",
+    "plan_sha256": "f3b097dc4e99dc106ce5d1926a51b42abf8f4bef96af30c098608b0579a3b3b9",
+    "pyproject_sha256": "80b2d5987672305443cd6a4449a2accaab39045bf1e15d6b5db42345b71bb8a2",
+    "uv_lock_sha256": "fdd641b1fa2eb48b0e94bd0dc1327f76555fb141f957cd0f234c1c1b6a8f7a4e"
+  }
+}

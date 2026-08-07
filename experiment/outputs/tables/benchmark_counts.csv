@@ -1,0 +1,14 @@
+benchmark,item_count,binary_items,fully_evaluable_items,common_failures
+arc_agi,100,100,100,4
+bfcl,348,348,348,66
+hallulens,100,100,100,0
+hle,194,194,183,75
+jaster,5000,5000,5000,594
+jbbq,100,100,100,4
+jhumaneval,78,78,78,3
+jmmlu_robust,100,100,100,0
+jtruthfulqa,582,582,582,92
+m_ifeval,172,172,172,10
+mtbench,160,160,160,2
+swebench,80,80,18,5
+toxicity,12,12,12,2

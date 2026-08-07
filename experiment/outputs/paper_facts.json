@@ -1,0 +1,488 @@
+{
+  "benchmark_counts": [
+    {
+      "benchmark": "arc_agi",
+      "binary_items": 100,
+      "common_failures": 4,
+      "fully_evaluable_items": 100,
+      "item_count": 100
+    },
+    {
+      "benchmark": "bfcl",
+      "binary_items": 348,
+      "common_failures": 66,
+      "fully_evaluable_items": 348,
+      "item_count": 348
+    },
+    {
+      "benchmark": "hallulens",
+      "binary_items": 100,
+      "common_failures": 0,
+      "fully_evaluable_items": 100,
+      "item_count": 100
+    },
+    {
+      "benchmark": "hle",
+      "binary_items": 194,
+      "common_failures": 75,
+      "fully_evaluable_items": 183,
+      "item_count": 194
+    },
+    {
+      "benchmark": "jaster",
+      "binary_items": 5000,
+      "common_failures": 594,
+      "fully_evaluable_items": 5000,
+      "item_count": 5000
+    },
+    {
+      "benchmark": "jbbq",
+      "binary_items": 100,
+      "common_failures": 4,
+      "fully_evaluable_items": 100,
+      "item_count": 100
+    },
+    {
+      "benchmark": "jhumaneval",
+      "binary_items": 78,
+      "common_failures": 3,
+      "fully_evaluable_items": 78,
+      "item_count": 78
+    },
+    {
+      "benchmark": "jmmlu_robust",
+      "binary_items": 100,
+      "common_failures": 0,
+      "fully_evaluable_items": 100,
+      "item_count": 100
+    },
+    {
+      "benchmark": "jtruthfulqa",
+      "binary_items": 582,
+      "common_failures": 92,
+      "fully_evaluable_items": 582,
+      "item_count": 582
+    },
+    {
+      "benchmark": "m_ifeval",
+      "binary_items": 172,
+      "common_failures": 10,
+      "fully_evaluable_items": 172,
+      "item_count": 172
+    },
+    {
+      "benchmark": "mtbench",
+      "binary_items": 160,
+      "common_failures": 2,
+      "fully_evaluable_items": 160,
+      "item_count": 160
+    },
+    {
+      "benchmark": "swebench",
+      "binary_items": 80,
+      "common_failures": 5,
+      "fully_evaluable_items": 18,
+      "item_count": 80
+    },
+    {
+      "benchmark": "toxicity",
+      "binary_items": 12,
+      "common_failures": 2,
+      "fully_evaluable_items": 12,
+      "item_count": 12
+    }
+  ],
+  "classification_assignment_count": 857,
+  "classification_category_counts": [
+    {
+      "benchmark": "arc_agi",
+      "category": "incomplete_or_null_output",
+      "items": 2
+    },
+    {
+      "benchmark": "arc_agi",
+      "category": "localized_grid_execution_error",
+      "items": 1
+    },
+    {
+      "benchmark": "arc_agi",
+      "category": "systematic_rule_misinference",
+      "items": 1
+    },
+    {
+      "benchmark": "bfcl",
+      "category": "constrained_value",
+      "items": 11
+    },
+    {
+      "benchmark": "bfcl",
+      "category": "multiturn_execution",
+      "items": 22
+    },
+    {
+      "benchmark": "bfcl",
+      "category": "relevance_boundary",
+      "items": 6
+    },
+    {
+      "benchmark": "bfcl",
+      "category": "schema_contract",
+      "items": 15
+    },
+    {
+      "benchmark": "bfcl",
+      "category": "temporal_snapshot",
+      "items": 5
+    },
+    {
+      "benchmark": "bfcl",
+      "category": "tool_action_selection",
+      "items": 4
+    },
+    {
+      "benchmark": "bfcl",
+      "category": "underspecified_no_call",
+      "items": 3
+    },
+    {
+      "benchmark": "hle",
+      "category": "advanced_derivation",
+      "items": 24
+    },
+    {
+      "benchmark": "hle",
+      "category": "exact_source_lookup",
+      "items": 10
+    },
+    {
+      "benchmark": "hle",
+      "category": "multi_claim_selection",
+      "items": 9
+    },
+    {
+      "benchmark": "hle",
+      "category": "other",
+      "items": 1
+    },
+    {
+      "benchmark": "hle",
+      "category": "procedural_execution",
+      "items": 4
+    },
+    {
+      "benchmark": "hle",
+      "category": "reference_conflict",
+      "items": 7
+    },
+    {
+      "benchmark": "hle",
+      "category": "specialized_concept",
+      "items": 8
+    },
+    {
+      "benchmark": "hle",
+      "category": "underspecified",
+      "items": 12
+    },
+    {
+      "benchmark": "jaster",
+      "category": "equivalent_surface_form",
+      "items": 205
+    },
+    {
+      "benchmark": "jaster",
+      "category": "label_protocol_mismatch",
+      "items": 76
+    },
+    {
+      "benchmark": "jaster",
+      "category": "linguistic_inference_boundary",
+      "items": 122
+    },
+    {
+      "benchmark": "jaster",
+      "category": "reference_or_evaluator_defect",
+      "items": 58
+    },
+    {
+      "benchmark": "jaster",
+      "category": "set_scope_and_order",
+      "items": 54
+    },
+    {
+      "benchmark": "jaster",
+      "category": "substantive_reasoning_or_knowledge",
+      "items": 16
+    },
+    {
+      "benchmark": "jaster",
+      "category": "underspecified_or_versioned",
+      "items": 63
+    },
+    {
+      "benchmark": "jbbq",
+      "category": "answer_key_option_misalignment",
+      "items": 4
+    },
+    {
+      "benchmark": "jhumaneval",
+      "category": "func_scale_artifact",
+      "items": 1
+    },
+    {
+      "benchmark": "jhumaneval",
+      "category": "lint_scale_artifact",
+      "items": 2
+    },
+    {
+      "benchmark": "jtruthfulqa",
+      "category": "rare_local_knowledge",
+      "items": 8
+    },
+    {
+      "benchmark": "jtruthfulqa",
+      "category": "reference_defect",
+      "items": 5
+    },
+    {
+      "benchmark": "jtruthfulqa",
+      "category": "scope_ambiguity",
+      "items": 16
+    },
+    {
+      "benchmark": "jtruthfulqa",
+      "category": "semantic_match_failure",
+      "items": 52
+    },
+    {
+      "benchmark": "jtruthfulqa",
+      "category": "subjective_or_fictional",
+      "items": 7
+    },
+    {
+      "benchmark": "jtruthfulqa",
+      "category": "temporal_drift",
+      "items": 4
+    },
+    {
+      "benchmark": "m_ifeval",
+      "category": "cat_checker_mismatch",
+      "items": 4
+    },
+    {
+      "benchmark": "m_ifeval",
+      "category": "cat_strict_wrapper",
+      "items": 1
+    },
+    {
+      "benchmark": "m_ifeval",
+      "category": "cat_structural_newline",
+      "items": 4
+    },
+    {
+      "benchmark": "m_ifeval",
+      "category": "cat_stylistic_ambiguous",
+      "items": 1
+    },
+    {
+      "benchmark": "mtbench",
+      "category": "adequate_answer_below_score_ceiling",
+      "items": 2
+    },
+    {
+      "benchmark": "swebench",
+      "category": "convergent_incomplete_patch",
+      "items": 3
+    },
+    {
+      "benchmark": "swebench",
+      "category": "fragmented_unsuccessful_approaches",
+      "items": 2
+    },
+    {
+      "benchmark": "toxicity",
+      "category": "definitive_stance_compliance",
+      "items": 1
+    },
+    {
+      "benchmark": "toxicity",
+      "category": "medical_specificity_over_deferral",
+      "items": 1
+    }
+  ],
+  "common_failure_count": 857,
+  "cross_taxonomy": [
+    {
+      "definition": "The answer is absent, incomplete, or expressed with a label, type, nesting, function representation, or other structure that violates the task's output contract.",
+      "id": "output_contract_and_structure",
+      "item_count": 94,
+      "name": "Output contract and structural compliance",
+      "representative_item_ids": [
+        "arc_agi:2b83f449|0",
+        "arc_agi:da515329|0",
+        "bfcl:simple_103",
+        "bfcl:java_78",
+        "jaster:jemhopqa|28|exact_match",
+        "jaster:jemhopqa|91|exact_match"
+      ],
+      "supporting_benchmarks": [
+        "arc_agi",
+        "bfcl",
+        "jaster"
+      ]
+    },
+    {
+      "definition": "The intended content or operation is broadly aligned with the reference, but aliases, answer span, ordering, units, defaults, precision, or normalization are rejected.",
+      "id": "semantic_equivalence_and_canonicalization",
+      "item_count": 322,
+      "name": "Semantic equivalence and answer canonicalization",
+      "representative_item_ids": [
+        "bfcl:multiple_161",
+        "bfcl:simple_344",
+        "jaster:aio|57|exact_match",
+        "jaster:niilc|7|exact_match",
+        "jtruthfulqa:439",
+        "jtruthfulqa:243"
+      ],
+      "supporting_benchmarks": [
+        "bfcl",
+        "jaster",
+        "jtruthfulqa"
+      ]
+    },
+    {
+      "definition": "The answer key, reference solution, option index, encoding, or scorer appears inconsistent with the prompt, an independent derivation, or a strongly convergent answer distribution.",
+      "id": "reference_or_evaluator_integrity",
+      "item_count": 88,
+      "name": "Reference or evaluator integrity",
+      "representative_item_ids": [
+        "hle:6736ccc7b9b2577c622e944c",
+        "hle:6736ec544c96e49df1036fea",
+        "jaster:mgsm|18|exact_match_figure",
+        "jaster:jmmlu|82|exact_match",
+        "jbbq:325_1",
+        "jtruthfulqa:437"
+      ],
+      "supporting_benchmarks": [
+        "hle",
+        "jaster",
+        "jbbq",
+        "jtruthfulqa"
+      ]
+    },
+    {
+      "definition": "The item omits assumptions, scope, date, version, counting rule, precision, or parameters needed to identify one stable answer or safe action.",
+      "id": "ambiguity_scope_and_versioning",
+      "item_count": 103,
+      "name": "Ambiguity, scope, and versioning",
+      "representative_item_ids": [
+        "bfcl:live_simple_205-116-13",
+        "bfcl:live_relevance_15-15-0",
+        "hle:66f8cff8469c315e2c9ed2f6",
+        "jaster:niilc|25|exact_match",
+        "jtruthfulqa:380",
+        "jtruthfulqa:527"
+      ],
+      "supporting_benchmarks": [
+        "bfcl",
+        "hle",
+        "jaster",
+        "jtruthfulqa"
+      ]
+    },
+    {
+      "definition": "Models and annotations diverge on a fine-grained linguistic, pragmatic, subjective, fictional, or tool-relevance boundary where neighboring interpretations are difficult to separate.",
+      "id": "judgment_and_relevance_boundary",
+      "item_count": 137,
+      "name": "Judgment and relevance boundary",
+      "representative_item_ids": [
+        "bfcl:irrelevance_124",
+        "bfcl:live_irrelevance_104-4-0",
+        "jaster:jcola-in-domain|42|exact_match",
+        "jaster:jnli|33|exact_match",
+        "jtruthfulqa:71",
+        "jtruthfulqa:151"
+      ],
+      "supporting_benchmarks": [
+        "bfcl",
+        "jaster",
+        "jtruthfulqa"
+      ]
+    },
+    {
+      "definition": "The task requires sustained state, a multi-claim decision, a long derivation, exact procedural execution, or repository-level implementation and verification; models omit, misorder, or incompletely realize a step.",
+      "id": "multi_step_reasoning_and_execution",
+      "item_count": 65,
+      "name": "Multi-step reasoning and execution",
+      "representative_item_ids": [
+        "arc_agi:faa9f03d|0",
+        "bfcl:multi_turn_miss_param_46",
+        "hle:6725d1218a8e4959b13450be",
+        "hle:673735ce90a20eb348edbe16",
+        "swebench:django__django-10999",
+        "swebench:pylint-dev__pylint-4661"
+      ],
+      "supporting_benchmarks": [
+        "arc_agi",
+        "bfcl",
+        "hle",
+        "swebench"
+      ]
+    },
+    {
+      "definition": "The model selects the wrong transformation, tool action, substantive answer, specialized concept, source fact, or rare local fact rather than merely violating presentation rules.",
+      "id": "task_rule_and_domain_knowledge",
+      "item_count": 47,
+      "name": "Task-rule selection and domain knowledge",
+      "representative_item_ids": [
+        "arc_agi:0d87d2a6|0",
+        "bfcl:live_multiple_837-178-12",
+        "hle:670c8b10148f2a113537c8f6",
+        "hle:672ca5b60fcde739f6450e29",
+        "jaster:jamp|81|exact_match",
+        "jtruthfulqa:286"
+      ],
+      "supporting_benchmarks": [
+        "arc_agi",
+        "bfcl",
+        "hle",
+        "jaster",
+        "jtruthfulqa"
+      ]
+    },
+    {
+      "definition": "The available summarized evidence is insufficient for a stable assignment to a recurring cross-benchmark mechanism.",
+      "id": "residual_or_unresolved",
+      "item_count": 1,
+      "name": "Residual or unresolved",
+      "representative_item_ids": [
+        "hle:6738df8c201a2bd66499797a"
+      ],
+      "supporting_benchmarks": [
+        "hle"
+      ]
+    }
+  ],
+  "fully_evaluable_binary_items": 6953,
+  "normalized_item_count": 7026,
+  "report_spec_hash": "917f6a815421971421a5752f7eff0c4bac3ac590fb45c309a01cf2b389b470c0",
+  "snapshot_id": "2026-07-31",
+  "threshold_totals": [
+    {
+      "common_failure_count": 999,
+      "required_wrong_of_20": 14,
+      "threshold": 0.7
+    },
+    {
+      "common_failure_count": 857,
+      "required_wrong_of_20": 16,
+      "threshold": 0.8
+    },
+    {
+      "common_failure_count": 712,
+      "required_wrong_of_20": 18,
+      "threshold": 0.9
+    }
+  ],
+  "top20_run_count": 20
+}
