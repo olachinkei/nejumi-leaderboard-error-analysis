@@ -93,7 +93,7 @@ SWE-benchには対照的な失敗パターンもある。別の項目（Django�
 
 汚染や内容上の問題が明らかになったベンチマークを置き換える際には、評価の妥当性だけでなく実行コストも考慮する必要がある。特に、新しい評価手法を全モデルへそのまま適用できるとは限らない。
 
-例えば、SWE-benchのように複数ステップの試行錯誤を繰り返すエージェント型のタスクでは、出力データ自体は小さくても、token使用量や実行時間はごく一部のtask実行に強く集中する傾向がある。モデルの修正は早い段階で正解に達していても、その後の正誤確認や再試行が長く続くことでコストが積み重なることもある。SWE-bench Proのローカル実測134 trajectoryでは、コスト上位7件（全体の5.2%）だけで入力tokenの48.2%、推定コストの43.1%を占めていた[5]。平均コストだけでは必要予算を見積もれないことを示す結果である。
+当初のSWE-bench評価では、Issueと検索によって絞り込んだコードをモデルに与え、unified diff形式のパッチを直接生成させる方式が中心だった[8]。これに対して、現在の主要なSWE-bench系評価では、モデルがtool callingを通じてリポジトリを探索し、ファイル編集、テスト実行、エラー確認、再修正を多数のturnにわたって繰り返した後、最終的なdiffを提出するエージェント型の評価が主流になっている。特にSWE-bench Proは、このような長時間の試行錯誤を必要とするlong-horizon taskとして設計され、評価には最大200 turnのSWE-Agent scaffoldが用いられている[9]。そのため、最終的な提出物は小さなdiffであっても、そこに至るまでのtoken使用量や実行時間は大きくなり、ごく一部のtask実行にコストが集中する。モデルの修正は早い段階で正解に達していても、その後の正誤確認や再試行が長く続くことでコストが積み重なることもある。SWE-bench Proのローカル実測134 trajectoryでは、コスト上位7件（全体の5.2%）だけで入力tokenの48.2%、推定コストの43.1%を占めていた[5]。平均コストだけでは必要予算を見積もれないことを示す結果である。
 
 性能とコストのバランスを考えるなら、極端に高コストなタスクの除外やサンプリングの見直しに加え、turn数、tool呼び出し回数、token数、実行時間の上限を評価仕様として定める必要がある。ただし、上限が厳しすぎれば解けるはずのタスクを途中で打ち切り、緩すぎれば費用と時間が予測不能になる。残り予算をAgentへ伝える、上限到達時にはその時点のdiffを提出させる、終了前に段階的な警告を出す、Agentの外側でも上限を強制するといった設計まで含めて、評価条件を比較可能にすることが求められる[5]。
 
@@ -115,3 +115,5 @@ SWE-benchには対照的な失敗パターンもある。別の項目（Django�
 [5] Weights & Biases, 「LLMリーダーボードのAgenticアップデート：Math/SWE評価のトレースから得た知見」, 2026.
 [6] I. Badertdinov et al., "SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents," 2025. https://arxiv.org/abs/2505.20411
 [7] SWE-rebench, "SWE-rebench Leaderboard," 2026. https://swe-rebench.com/
+[8] C. E. Jimenez et al., "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?," 2023. https://arxiv.org/abs/2310.06770
+[9] X. Deng et al., "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?," 2025. https://arxiv.org/abs/2509.16941
