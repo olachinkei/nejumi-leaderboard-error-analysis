@@ -1,0 +1,8 @@
+鎌田 啓輔 - Weights & Biases Japan, Senior Manager of Account Solutions Architecture 
+
+京都大学情報学研究科で修士号を取得。因果推論からML、LLMまで行う機械学習エンジニア。APTではビジネス施策における因果推論の支援、DataRobotではヘルスケアチームのLead Data Scientistとしてヘルスケア業界を中心に数十社のAI導入を支援。コロナ禍には国立国際医療研究センターと論文や厚生労働省へのレターを作成。現在Weights & Biasesでは、企業へのML workflow構築支援以外にNejumi Leaderboardやllm-jp-evalの開発も行っている。タンパク質言語モデルのファインチューニングのハンズオントレーニングを製薬企業に対し提供するなど、業界特化のLLMの応用に向けた活動も行っている。
+
+山本 祐也 - Weights & Biases Japan, Senior Account Solutions Architect
+
+東京大学大学院工学系研究科にて有機無機複合材料の研究で博士号を取得。学位取得後、大手化学メーカーにて液晶・タッチパネル関連先端化学材料の研究開発に従事。 その後、大手食品メーカーで機械学習を用いた食品パッケージに関する予測モデリングと最適化に取り組むなど、BtBとBtCいずれにも深い経験を有する。前職DataRobotでは製造顧客担当チームのリーダーとして国内数十社のAI導入を支援。国内で数十人程度のKaggle Grandmasterの一人。
+

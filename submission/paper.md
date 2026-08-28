@@ -1,4 +1,4 @@
-# 誤答傾向分析を通じたベンチマークの妥当性検証と運用の課題
+# 誤答傾向分析を通じたベンチマークの妥当性検証
 
 ## 概要
 
@@ -24,15 +24,15 @@ Nejumi LLM Leaderboard 4で多くのモデルが共通して間違える問題�
 
 正規化した7,026 itemのうち、20 runすべてで判定可能な二値itemは6,953件で、そのうち857件（12.33%）が「20モデル中16以上が誤答」という条件を満たした。下図は、ベンチマークごとに20モデル全員の正誤が判定できた問題数を分母、16モデル（80%）以上が誤答した問題数を分子にした誤答率を示す。
 
-![ベンチマーク別の80%以上共通誤答](experiment/outputs/figures/benchmark_failure_rate.png)
+![ベンチマーク別の80%以上共通誤答](figures/benchmark_failure_rate.png)
 
 抽出した共通誤答問題については、ベンチマークごとの誤答パターンと、ベンチマークを横断する「誤答の原因が何に近いか」という軸（cause axis）の2観点でLLM支援分類も行った。11ベンチマーク全ての分類結果を図にまとめ、件数の多い5ベンチマーク（Jaster・JTruthfulQA・HLE・BFCL・M-IFEval）は棒グラフ、残り6ベンチマークは下部に箇条書きで示す。
 
-![ベンチマーク別の誤答パターン分類](experiment/outputs/figures/category_breakdown.png)
+![ベンチマーク別の誤答パターン分類](figures/category_breakdown.png)
 
 857件全体を5つのcause axisで見た内訳が下図である。各カテゴリの内容は次節の具体例で詳述する。
 
-![誤答の原因軸](experiment/outputs/figures/cause_axis.png)
+![誤答の原因軸](figures/cause_axis.png)
 
 ### 具体例：誤答の中身を見る
 
@@ -69,7 +69,7 @@ Jasterの英語と日本語の機械翻訳タスクに明確な例があった�
 
 この問題に対する一つのアプローチが、評価課題を定期的に追加・更新するSWE-rebenchである[6][7]。現時点の市場でのモデル評価との整合性が高いとされるDeepSWEとSWE-rebench v2を、対応可能な7 configurations（モデル・effort設定）で比較すると、Pearson $r=0.84$、Spearman $\rho=0.86$と高い相関を示した[5]。
 
-![DeepSWEとSWE-rebenchの相関](experiment/outputs/figures/paper_swerebench_v2_vs_deepswe.png)
+![DeepSWEとSWE-rebenchの相関](figures/paper_swerebench_v2_vs_deepswe.png)
 
 *図4　DeepSWEと現行SWE-rebench v2の相関[5]。7 configurations（モデル・effort設定）を比較した。青丸はeffort条件が明示的に一致するconfiguration、赤三角はeffort条件が異なるconfiguration、橙四角はSWE-rebench側でeffort条件が示されていないconfigurationを表す。破線は最小二乗回帰直線である。*
 
